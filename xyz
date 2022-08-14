@@ -1,0 +1,22 @@
+#include <stdio.h>
+int main()
+{
+char i,c;
+printf("Enter the character:");
+scanf("%c",&c);
+for(i=c;i<='z';i++)
+{
+    printf("%c",i);
+}
+return 0;
+}
+
+output:
+
+Enter the character:e
+efghijklmnopqrstuvwxyz
+
+
+
+Enter the character:m
+mnopqrstuvwxyz
