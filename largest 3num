@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main() {
+   int a,b,c,largest;
+   printf("Enter the numbers:");
+   scanf("%d%d%d",&a,&b,&c);
+   largest=((a>b)&&(a>c))?a:((b>c)?b:c);
+   printf("%d is the largest",largest);
+   return 0;
+}
+
+output:
+
+Enter the numbers:99
+76
+87
+99 is the largest
