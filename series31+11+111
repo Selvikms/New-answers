@@ -1,0 +1,25 @@
+#include<stdio.h>
+int main()
+{
+    int i,n,s=0,sum=0;
+    printf("Enter the number:");
+    scanf("%d",&n);
+    for(i=0;i<n;i++)
+    {
+        s=s*10+1;
+        printf("%d",s);
+        if(i!=n-1)
+        {
+        printf("+");
+        }
+        sum = sum+s;
+    }
+        printf("\n The sum is %d",sum);
+    
+    return 0;
+}
+
+output:
+Enter the number:3
+1+11+111
+ The sum is 123
